@@ -55,7 +55,7 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_899DEA97491A4830B01E4D89A3B737DC }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_51BD4730807A4DE0813F123F2301B867 }}
 
-      - name: 'Deploy to Azure Web App'
+      - name: 'eventview-queenscollege'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
